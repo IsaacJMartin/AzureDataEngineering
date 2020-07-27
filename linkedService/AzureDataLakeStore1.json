@@ -1,0 +1,13 @@
+{
+	"name": "AzureDataLakeStore1",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDataLakeStore",
+		"typeProperties": {
+			"dataLakeStoreUri": "https://jjnblknlmn.azuredatalakestore.net/webhdfs/v1",
+			"tenant": "0dd838aa-1b08-4366-b38a-1fec56f20cf2",
+			"subscriptionId": "52dc5ff8-942b-4002-a49e-b2274d248a6a",
+			"resourceGroupName": "ResourceGroup1"
+		}
+	}
+}
