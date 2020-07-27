@@ -31,22 +31,6 @@
 			"type": "string",
 			"defaultValue": "ResourceGroup1"
 		},
-		"AzureDataLakeStore2_properties_typeProperties_dataLakeStoreUri": {
-			"type": "string",
-			"defaultValue": "https://jjnblknlmn.azuredatalakestore.net/webhdfs/v1"
-		},
-		"AzureDataLakeStore2_properties_typeProperties_tenant": {
-			"type": "string",
-			"defaultValue": "0dd838aa-1b08-4366-b38a-1fec56f20cf2"
-		},
-		"AzureDataLakeStore2_properties_typeProperties_subscriptionId": {
-			"type": "string",
-			"defaultValue": "52dc5ff8-942b-4002-a49e-b2274d248a6a"
-		},
-		"AzureDataLakeStore2_properties_typeProperties_resourceGroupName": {
-			"type": "string",
-			"defaultValue": "ResourceGroup1"
-		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -91,18 +75,6 @@
 					},
 					"AzureDataLakeStore1_properties_typeProperties_resourceGroupName": {
 						"value": "[parameters('AzureDataLakeStore1_properties_typeProperties_resourceGroupName')]"
-					},
-					"AzureDataLakeStore2_properties_typeProperties_dataLakeStoreUri": {
-						"value": "[parameters('AzureDataLakeStore2_properties_typeProperties_dataLakeStoreUri')]"
-					},
-					"AzureDataLakeStore2_properties_typeProperties_tenant": {
-						"value": "[parameters('AzureDataLakeStore2_properties_typeProperties_tenant')]"
-					},
-					"AzureDataLakeStore2_properties_typeProperties_subscriptionId": {
-						"value": "[parameters('AzureDataLakeStore2_properties_typeProperties_subscriptionId')]"
-					},
-					"AzureDataLakeStore2_properties_typeProperties_resourceGroupName": {
-						"value": "[parameters('AzureDataLakeStore2_properties_typeProperties_resourceGroupName')]"
 					}
 				}
 			},
